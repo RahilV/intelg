@@ -13,10 +13,11 @@
     <link rel="stylesheet" href="./assets/css/theme.css">
     <link rel="stylesheet" href="./assets/css/loopple/loopple.css">
 </head>
-
 <body class="null">
     <nav class="navbar navbar-expand-lg navbar-light bg-white py-3">
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
         <div class="container">
+            <img src="" alt="">
             <a class="navbar-brand" href="javascript:;" rel="tooltip" title="Designed and Coded by Creative Tim"
                 data-placement="bottom">
                 INTEL G SERVICES PVT. LTD.
@@ -32,13 +33,13 @@
             </button>
             <div class="collapse navbar-collapse w-100 pt-3 pb-2 py-lg-0 ms-lg-12 ps-lg-5" id="navigation">
                 <ul class="navbar-nav navbar-nav-hover w-100">
-                    <a href="javascript:;" class="dropdown-item border-radius-md">
+                    <a href="#aboutus" class="dropdown-item border-radius-md">
                         About Us
                     </a>
-                    <a href="javascript:;" class="dropdown-item border-radius-md">
+                    <!-- <a href="javascript:;" class="dropdown-item border-radius-md">
                         Testimonials
-                    </a>
-                    <a href="javascript:;" class="dropdown-item border-radius-md">
+                    </a> -->
+                    <a href="#contactus" class="dropdown-item border-radius-md">
                         Contact Us
                     </a>
                 </ul>
@@ -54,14 +55,14 @@
             </div>
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-6 col-md-7 d-flex justify-content-center flex-column">
+                    <div class="col-lg-4 col-md-7 d-flex justify-content-center flex-column">
                         <h1 class="text-gradient text-primary">Your growth our mission!</h1>
-                        <h1 class="mb-4">Intel G Services PVT. LTD.</h1>
-                        <p class="lead pe-5 me-5">The best Background checking and Application developement Service in the Market</p>
-                        <div class="buttons">
+                        <h1 class="mb-5">Intel G Services PVT. LTD.</h1>
+                        <h6 class="lead mb-3">The best Address Verification Service in the Market</h6>
+                        <!-- <div class="buttons">
                             <button type="button" class="btn bg-gradient-primary mt-4">Get Started</button>
                             <button type="button" class="btn text-primary shadow-none mt-4">Read more</button>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
@@ -89,48 +90,57 @@
             </div>
         </div>
     </section>
-    <div class="py-5">
+    <div class="py-5" id="aboutus">
         <div class="container">
-            <div class="row">
+            <!-- <div class="row">
                 <div class="col-8 mx-auto text-center">
-                    <h6 class="opacity-5"> More than 50+ brands trust Soft</h6>
+                    <h3>What we do?</h3>
                 </div>
             </div>
+            <div class="row mt-4">  
+                Verify the address claimed by the Candidate & ascertain whether the Candidate have ever been a resident of the given address by conducting a physical site visit at the given address.
+            </div> -->
+            <div class="row">
+                <div class="col-8 mx-auto text-center">
+                    <h3>Our Clients</h3>
+                </div>
+            </div>
+            <br><br>
             <div class="row mt-4">
                 <div class="col-lg-2 col-md-4 col-6 mb-4">
                     <img class="w-100 opacity-9"
-                        src="https://demos.creative-tim.com/soft-ui-design-system-pro/assets/img//logos/gray-logos/logo-coinbase.svg"
+                        src="/assets/img/logos/bob.png"
                         alt="logo">
                 </div>
                 <div class="col-lg-2 col-md-4 col-6 mb-4">
                     <img class="w-100 opacity-9"
-                        src="https://demos.creative-tim.com/soft-ui-design-system-pro/assets/img//logos/gray-logos/logo-nasa.svg"
+                        src="/assets/img/logos/canara.png"
                         alt="logo">
                 </div>
                 <div class="col-lg-2 col-md-4 col-6 mb-4">
                     <img class="w-100 opacity-9"
-                        src="https://demos.creative-tim.com/soft-ui-design-system-pro/assets/img//logos/gray-logos/logo-netflix.svg"
+                        src="/assets/img/logos/dbs.png"
                         alt="logo">
                 </div>
                 <div class="col-lg-2 col-md-4 col-6 mb-4">
                     <img class="w-100 opacity-9"
-                        src="https://demos.creative-tim.com/soft-ui-design-system-pro/assets/img//logos/gray-logos/logo-pinterest.svg"
+                        src="/assets/img/logos/fis.png"
                         alt="logo">
                 </div>
                 <div class="col-lg-2 col-md-4 col-6 mb-4">
                     <img class="w-100 opacity-9"
-                        src="https://demos.creative-tim.com/soft-ui-design-system-pro/assets/img//logos/gray-logos/logo-spotify.svg"
+                        src="/assets/img/logos/icici.png"
                         alt="logo">
                 </div>
                 <div class="col-lg-2 col-md-4 col-6 mb-4">
                     <img class="w-100 opacity-9"
-                        src="https://demos.creative-tim.com/soft-ui-design-system-pro/assets/img//logos/gray-logos/logo-vodafone.svg"
+                        src="/assets/img/logos/karnataka bank.png"
                         alt="logo">
                 </div>
             </div>
         </div>
     </div>
-    <section class="py-5">
+    <section class="py-5" id="contactus">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-8 mx-auto text-center">
@@ -199,7 +209,6 @@
                                         <select class="form-control form-control-md">
                                             <option>Monthly</option>
                                             <option>Weekly</option>
-                                            <option>Daily</option>
                                         </select>
                                     </div>
                                     <div class="col-md-4">
@@ -217,7 +226,7 @@
                                 </div>
                                 <div class="row">
                                     <div class="col-md-12 text-center">
-                                        <button type="submit" class="btn bg-gradient-primary mt-4">Send Message</button>
+                                        <button type="submit" class="btn bg-gradient-primary mt-4">Submit</button>
                                     </div>
                                 </div>
                             </div>
@@ -329,4 +338,25 @@
         }
     </script>
     <script src="./assets/js/loopple/loopple.js"></script>
+    <script>
+        // Get the button
+        let mybutton = document.getElementById("myBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
 </body>
