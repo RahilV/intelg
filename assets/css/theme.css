@@ -26632,18 +26632,67 @@ pre[class*="language-"] {
   display: none;
   position: fixed;
   bottom: 20px;
-  right: 30px;
+  right: 20px;
   z-index: 99;
-  font-size: 18px;
   border: none;
   outline: none;
-  background-color: red;
-  color: white;
   cursor: pointer;
   padding: 15px;
   border-radius: 4px;
 }
 
-#myBtn:hover {
-  background-color: #555;
+.partners{
+  height: auto;
+  width: 100px;
+}
+
+
+.slick-slide {
+  margin: 0px 20px;
+}
+
+.slick-slide img {
+  width: 100%;
+}
+
+.slick-slider
+{
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+}
+
+.slick-list
+{
+  position: relative;
+  display: block;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+.slick-track
+{
+  position: relative;
+  top: 0;
+  left: 0;
+  display: block;
+}
+.slick-slide
+{
+  display: none;
+  float: left;
+  min-height: 1px;
+}
+.slick-slide img
+{
+  display: block;
+}
+
+.slick-initialized .slick-slide
+{
+  display: block;
+}
+
+.copy{
+  padding-top: 250px;
 }
